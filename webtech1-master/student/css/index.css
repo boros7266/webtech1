@@ -1,0 +1,146 @@
+body{
+    background: white;
+}
+a:Link{                                                                 //link config
+    color:white;
+    text-decoration: none;
+}
+a:visited{                                                              //megtekintett linkek config
+    color:white;
+    text-decoration: none;
+}
+button{                                                                 //gomb beállítás
+    box-shadow:inset 0px 0px 15px 3px #23395e;
+    background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    background-color:#2e466e;
+    border-radius:17px;
+    border:1px solid #1f2f47;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:6px 13px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+}
+
+#everything{
+    margin: auto;
+    width: 100%;
+    alignment: left;
+}
+#banner{
+    height: 60px;
+    margin: 0px 50px 0px 50px;
+    font-size: 80px;
+    color: black;
+    text-align: left;
+}
+#menuBar{
+    margin-top: 20px;
+    background: none;
+    font-size: 17px;
+    alignment: left;
+}
+#menuBar .menuButton{
+    width: 160px;
+    height: 20px;
+    background: lightblue;
+    border: none;
+    padding: 10px auto;
+    text-align: center;
+    color: dimgray;
+    margin: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    transition-duration: 0.5s;
+    font-size: 15px;
+}
+#menuBar .menuButton:HOVER{
+    background-color: black;
+}
+#content_outer{
+    background: none;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#content{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#header{
+    text-align: left;
+    font-size: 45px;
+    color: black;
+}
+#Description{
+    display: none;
+    padding-bottom: 5px;
+}
+#allTable{
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    alignment: center;
+    border: none;
+}
+#allTableth{
+    border: 2px solid red;;
+    background: silver;
+    font-size: 20px;
+    height: 25px;
+}
+#allTabletd{
+    border: 2px solid black;
+    background: lightblue;
+}
+
+input[type=text], input[type=date], input[type=number], select{
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+}
+input[type=submit]:HOVER {
+    background-color: black;
+}
+.container{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.list_container{
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.carlist_container{
+    margin: auto;
+    padding-bottom: 10px;
+}
